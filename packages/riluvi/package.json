@@ -1,0 +1,32 @@
+{
+  "name": "riluvi",
+  "version": "0.1.0",
+  "description": "Open source AI assistant runtime built by Chronokairo.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "chat": "node src/index.js --chat",
+    "test": "node test/runtime.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "ai",
+    "assistant",
+    "agent",
+    "chronokairo",
+    "riluvi"
+  ],
+  "author": "Chronokairo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chronokairo/riluvi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chronokairo/riluvi/issues"
+  },
+  "homepage": "https://github.com/chronokairo/riluvi#readme",
+  "license": "MIT"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@chronokairo/server",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Chronokairo Server — Next.js app with agent hosting and internal management UI",
+  "scripts": {
+    "dev": "bun server.ts",
+    "build": "next build",
+    "start": "bun server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@chronokairo/core": "workspace:*",
+    "@chronokairo/sdk": "workspace:*",
+    "firebase-admin": "^13.0.0",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "ws": "^8.18.0",
+    "uuid": "^11.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/ws": "^8.5.0",
+    "tailwindcss": "^4.1.0",
+    "@tailwindcss/postcss": "^4.1.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
