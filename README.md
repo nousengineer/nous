@@ -4,14 +4,16 @@
 
 **Open-source AI agent platform** — runtime, SDK, multi-tenant server, and editor LLM bridges.
 
-Built by [Chronokairo](https://github.com/chronokairo).
+An open-source project by [ChronoKairo](https://github.com/chronokairo).
 
 </div>
 
 ---
 
-Nous is the AI-infra stack that powers Chronokairo's products. It is composed of
-four independent packages that work together but can be used separately.
+Nous is the core of the **Nous Engineer** platform — an open-source AI-native
+engineering stack built and maintained by
+[ChronoKairo](https://github.com/chronokairo). It is composed of four
+independent packages that work together but can be used separately.
 
 ## Packages
 
@@ -36,6 +38,18 @@ nous/
 
 Each package is self-contained and ships its own README with build/run instructions.
 
+## Ecosystem
+
+Nous is the core platform. These companion repositories in the
+[nousengineer](https://github.com/nousengineer) org extend it:
+
+| Repository | Role |
+|---|---|
+| **nous-runtime** | OpenCL inference backend for legacy GPUs (GGUF runtime + kernels) |
+| **nous-coder** | Repo-aware coding agent CLI |
+| **nous-desktop** | Desktop UI for the platform |
+| **nous-labs** | Applied research and experiments |
+
 ## Status
 
 Early stage. APIs and protocols are still evolving. Not all packages publish
@@ -43,4 +57,4 @@ releases yet — see each package's README for details.
 
 ## License
 
-[MIT](LICENSE) © Chronokairo
+[MIT](LICENSE) © ChronoKairo
