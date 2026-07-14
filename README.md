@@ -46,9 +46,10 @@ Nous is the core platform. These companion repositories in the
 | Repository | Role |
 |---|---|
 | **nous-runtime** | OpenCL inference backend for legacy GPUs (GGUF runtime + kernels) |
-| **nous-coder** | Repo-aware coding agent CLI |
+| **[nous-coder](https://github.com/nousengineer/nous-coder)** | Rust coding agent — plan/act/verify loop with local LLM (Ollama) |
 | **nous-desktop** | Desktop UI for the platform |
 | **nous-labs** | Applied research and experiments |
+| **nous-research** | Research notes on legacy GPU inference (Caicos XT) |
 
 ## Status
 
